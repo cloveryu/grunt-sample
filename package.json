@@ -5,13 +5,25 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
-  "author": "",
-  "license": "BSD",
+  "homepage": "https://github.com/cloveryu/grunt-sample",
+  "author": {
+    "name": "Clover YU",
+    "url": "http://cloveryu.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cloveryu/grunt-sample.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cloveryu/grunt-sample/issues"
+  },
+  "license": "MIT",
   "keywords": [
-    "grunt",
-    "sample"
+    "grunt sample"
   ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-clean": "~0.5.0",
